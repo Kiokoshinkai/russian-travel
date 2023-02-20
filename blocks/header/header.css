@@ -4,3 +4,27 @@
   max-width: 1184px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1279px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    max-width: calc(928px - 208px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    max-width: 373px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .header {
+    max-width: 288px;
+  }
+}

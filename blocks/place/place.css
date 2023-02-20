@@ -7,3 +7,34 @@
     "image description";
   gap: 48px 40px;
 }
+
+@media screen and (max-width: 1279px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "description";
+    gap: 36px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .place {
+    gap: 32px;
+  }
+}

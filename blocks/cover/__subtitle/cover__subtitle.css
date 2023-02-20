@@ -6,3 +6,20 @@
   line-height: 22px;
   margin: 32px auto 0;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    min-width: 373px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .cover__subtitle {
+    min-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 0 0 0;
+  }
+}

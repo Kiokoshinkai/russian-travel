@@ -3,3 +3,28 @@
   max-width: 1184px;
   margin: 0 auto 24px;
 }
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    max-width: calc(928px - 208px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    max-width: 373px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer {
+    max-width: 288px;
+  }
+}
