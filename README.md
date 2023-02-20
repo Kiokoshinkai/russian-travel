@@ -27,4 +27,4 @@
 
 **Ссылка на проект**
 
-* [Путешествие по России] (https://kiokoshinkai.github.io/russian-travel/)
+* [Путешествие по России](https://kiokoshinkai.github.io/russian-travel/)
