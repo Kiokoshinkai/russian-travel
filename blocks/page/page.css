@@ -12,25 +12,25 @@
   background-color: #2A2C2F;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1300px) {
   .page {
     min-width: 1024px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1050px) {
   .page {
     min-width: 768px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 790px) {
   .page {
     min-width: 425px;
   }
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 470px) {
   .page {
     min-width: 320px;
   }

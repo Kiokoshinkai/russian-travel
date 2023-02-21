@@ -5,7 +5,9 @@
   text-decoration: none;
   color: #fff;
 }
+
 .footer__link:hover {
+  transition: opacity 300ms linear;
   opacity: 0.8;
 }
 
